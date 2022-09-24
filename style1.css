@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.nav-item{
+    padding:0px 10px;
+}
+
+.header{
+    height: 100vh;
+    /* border: solid ; */
+    background-image: url(bg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.heroText{
+    /* border: 3px solid red; */
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    right:100px;
+    top: 100px;
+
+
+}
+
+.heroText h2{
+    /* border: 2px solid white; */
+    text-align: center;
+    color: #3e3e46;
+}
+
+.heroText h4{
+    text-align: center;
+    color: #5d5958;
+}
+
+.wave{
+    z-index: -1;
+}
+
+.courseDetails{
+    padding: 100px 0px;
+    position: relative;
+    /* border: 3px solid red; */
+    /* top: -200px; */
+    background-color:#f4f5f4 ;
+    margin-top: -200px;
+}
+
+.courseDetails a {
+    border: 0px;
+    text-align: left;
+    font-weight: 500px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.courseDetails a:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.82);
+
+}

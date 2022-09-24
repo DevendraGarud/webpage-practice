@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* CSS Variables */
+
+/* Navigation Bar  */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    padding-right: 2%;
+    
+    
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+/*Navigation Bar:  logo and image  */
+#logo{
+    margin: 10px 34px;
+    
+
+}
+#logo img{
+    margin: 3px 6px;
+    height: 75px;
+    cursor: pointer;
+    
+}
+
+#navbar ul{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-left: 5%;
+   
+}
+
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 2rem;
+    
+    
+ 
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+#navbar ul li a:hover {
+    
+    color:black;
+    background-color: white;
+    
+
+}
+
+/* Home Section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home::before{
+    content: "";
+    background:url('../EduLaddr/bg3.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+  
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* services section  */
+
+#services{
+    margin: 180px;
+    display: flex;
+    height: 400px;
+   
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(255, 252, 252);
+}
+
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+#services .box p{
+
+}
+
+#services .h-primary{
+    height: 50px;
+    padding: 400px;
+}
+
+/* client section  */
+
+
+#client-section{
+    height: 344px;
+
+}
+
+#client-section::before{
+    
+
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 130px;
+}
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 30px;
+
+}
+
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:white;
+    color:black;
+    margin: 25px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    font-weight: bold;
+    box-shadow: 2px ;
+    background-color: beige;
+
+}
+
+.center{
+    text-align: center;
+}
